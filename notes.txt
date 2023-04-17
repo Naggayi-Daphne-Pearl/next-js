@@ -20,5 +20,7 @@ Dev Server- make changes in our code and changes refleccted on the browser
 
 - for development builds, the page will be pre-rendered once when we run the request is made. to make sure changes are made during development. 
 
+- Static Generation with getStaticProps can be used to fetch a list of articles, products or topics 
+
 
 
