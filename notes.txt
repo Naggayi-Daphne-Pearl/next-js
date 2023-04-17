@@ -22,5 +22,16 @@ Dev Server- make changes in our code and changes refleccted on the browser
 
 - Static Generation with getStaticProps can be used to fetch a list of articles, products or topics 
 
+getStaticProps runs only the server side. The function will never return client side. 
+    The code you write inside getStaticProps wont even be included in the JS bundle that is sent in the browser. 
+    - You can write server side code directly in getStaticProps
+    - Accessing the file system using the fs module or querying a database can be done inside the getStaticProps. 
+    - Only run in a page and cannot be runned in a regular component file 
+    - it is used only in pre-rendering and not client side data fetching 
+    - it should return an object 
+    - it will run at build time
+    - during development will run on every request. 
+    
+
 
 
