@@ -1,4 +1,5 @@
 import React from "react";
+// dynamic routes
 import { useRouter } from "next/router";
 
 const ProductDetails = () => {
