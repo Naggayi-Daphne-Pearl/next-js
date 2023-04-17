@@ -1,0 +1,24 @@
+REACT vs Next js 
+    - By default next js prerenders every page in the application
+    - Pre render means Next js generates HTML for each page in advance instead of having it all done on the client side JavaScript. 
+    - Pre render improves performance. HTML is already generated. 
+    - Helps in SEO 
+
+Next js supports two forms of pre rendering
+    - Static Generation 
+    - Server Side Rendering 
+
+Static Generation 
+    - HTML pages are rendered at build time. 
+    - used for blog pages, e-commerce pages, documentation pages and marketing pages. 
+    - Our Html pages are automatically static generated when we build our application. 
+
+- Production Server - an optimized build is created once and you deploy what you build. You cant make code changes on the go once its deployed. 
+Dev Server- make changes in our code and changes refleccted on the browser
+
+- for Next js for production builds, a page will be pre-rendered once when we run the build command. 
+
+- for development builds, the page will be pre-rendered once when we run the request is made. to make sure changes are made during development. 
+
+
+
